@@ -1,0 +1,412 @@
+/* Widget Description */
+.widget-description {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 1.5;
+	margin: 0 0 20px;
+}
+
+/* Advertisement */
+.widget-advertisement:after {
+	clear: both;
+	content: "";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+/* Dribbble */
+.widget-dribbble:after {
+	clear: both;
+	content: "";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+.widget-dribbble a {
+	float: left;
+	margin: 0 10px 10px 0;
+	padding: 0;
+}
+		
+.widget-dribbble img {
+	background: none;
+	border: 0;
+	float: left;
+	height: 95px;
+	width: 95px;
+}
+
+/* Feedburner */
+.widget-feedburner .newsletter-wrap {
+	position: relative;
+}
+
+.widget-feedburner .newsletter-text {
+	box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	font-size: 14px;
+	padding: 8px 95px 8px 10px;
+	width: 100%;
+}
+
+.widget-feedburner .newsletter-submit,
+.widget-feedburner .newsletter-submit:hover {
+	background: transparent;
+	border: 0;
+	box-shadow: none;
+	color: #999;
+	display: block;
+	float: none;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 12px;
+	text-transform: uppercase;
+	top: 14px;
+	z-index: 2;
+}
+
+/* Flickr */
+.widget-flickr:after {
+	clear: both;
+	content: "";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+.widget-flickr a {
+	float: left;
+	margin: 0 10px 10px 0;
+	padding: 0;
+}
+		
+.widget-flickr img {
+	background: none;
+	border: 0;
+	float: left;
+	height: 95px;
+	width: 95px;
+}
+
+/* List Authors */
+.widget-list-authors:after {
+	clear: both;
+	content: "";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+.widget-list-authors ul.list-authors {
+	margin: 0;
+}
+
+.widget-list-authors a {
+	float: left;
+	margin: 0 10px 10px 0;
+	padding: 0;
+}
+		
+.widget-list-authors img {
+	background: none;
+	border: 0;
+	float: left;
+	height: 95px;
+	width: 95px;
+}
+
+/* MailChimp */
+.widget-mailchimp .newsletter-wrap {
+	position: relative;
+}
+
+.widget-mailchimp .newsletter-text {
+	box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	font-size: 14px;
+	padding: 8px 95px 8px 10px;
+	width: 100%;
+}
+
+.widget-mailchimp .newsletter-submit,
+.widget-mailchimp .newsletter-submit:hover {
+	background: transparent;
+	border: 0;
+	box-shadow: none;
+	color: #999;
+	display: block;
+	float: none;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 12px;
+	text-transform: uppercase;
+	top: 14px;
+	z-index: 2;
+}
+
+/* Portfolio */
+.widget-portfolio:after {
+	clear: both;
+	content: "";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+.widget-portfolio a {
+	float: left;
+	margin: 0 10px 10px 0;
+	padding: 0;
+}
+		
+.widget-portfolio img {
+	background: none;
+	border: 0;
+	float: left;
+	height: 95px;
+	width: 95px;
+}
+
+/* Recent Comments */
+.widget-recent-comments:after {
+	clear: both;
+	content: "";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+.widget-recent-comments a {
+	float: left;
+	margin: 0 10px 10px 0;
+	padding: 0;
+}
+		
+.widget-recent-comments img {
+	background: none;
+	border: 0;
+	float: left;
+	height: 95px;
+	width: 95px;
+}
+
+/* Recent Images */
+.widget-recent-images:after {
+	clear: both;
+	content: "";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+.widget-recent-images a {
+	background: none;
+	border: 0;
+	float: left;
+	margin: 0 10px 10px 0;
+	padding: 0;
+}
+		
+.widget-recent-images img {
+	float: left;
+	height: 95px;
+	width: 95px;
+}
+
+/* Recent Posts */
+.widget-recent-posts ul {
+	margin: 0;
+	padding: 0;
+}
+
+.widget-recent-posts li {
+	background: none;
+	list-style: none;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.widget-recent-posts li a,
+.widget-recent-posts li a:hover {
+	text-decoration: none;
+}
+
+.widget-recent-posts li .post-date {
+	display: block;
+	font-size: 12px;
+	margin: 2px 0 0;
+	text-transform: uppercase;
+}
+
+/* Social Profiles */
+.widget-social-profiles:after {
+	clear: both;
+	content: "";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+.widget-social-profiles div a,
+.widget-social-profiles div a:hover {
+	border-radius: 4px;
+	border: 0;
+	display: inline-block;
+	float: left;
+	font-size: 14px;
+	height: auto;
+	line-height: normal;
+	margin: 0 10px 10px 0;
+	padding: 8px 0;
+	text-align: center;
+	text-decoration: none;
+	width: 32px;
+}
+
+.widget-social-profiles .delicious a,
+.widget-social-profiles .delicious a:hover {
+	background-color: #223F5F;
+	color: #FFF;
+}
+
+.widget-social-profiles .dribbble a,
+.widget-social-profiles .dribbble a:hover {
+	background-color: #C73B6F;
+	color: #FFF;
+}
+
+.widget-social-profiles .dropbox a,
+.widget-social-profiles .dropbox a:hover {
+	background-color: #CF3046;
+	color: #FFF;
+}
+
+.widget-social-profiles .facebook a,
+.widget-social-profiles .facebook a:hover {
+	background-color: #3B5998;
+	color: #FFF;
+}
+
+.widget-social-profiles .flickr a,
+.widget-social-profiles .flickr a:hover {
+	background-color: #72AAE8;
+	color: #FFF;
+}
+
+.widget-social-profiles .forrst a,
+.widget-social-profiles .forrst a:hover {
+	background-color: #517149;
+	color: #FFF;
+}
+
+.widget-social-profiles .foursquare a,
+.widget-social-profiles .foursquare a:hover {
+	background-color: #17649A;
+	color: #FFF;
+}
+
+.widget-social-profiles .github a,
+.widget-social-profiles .github a:hover {
+	background-color: #222;
+	color: #FFF;
+}
+
+.widget-social-profiles .google-plus a,
+.widget-social-profiles .google-plus a:hover {
+	background-color: #D34836;
+	color: #FFF;
+}
+
+.widget-social-profiles .instagram a,
+.widget-social-profiles .instagram a:hover {
+	background-color: #9D6D55;
+	color: #FFF;
+}
+
+.widget-social-profiles .lastfm a,
+.widget-social-profiles .lastfm a:hover {
+	background-color: #DE1230;
+	color: #FFF;
+}
+
+.widget-social-profiles .linkedin a,
+.widget-social-profiles .linkedin a:hover {
+	background-color: #0083B5;
+	color: #FFF;
+}
+
+.widget-social-profiles .pinterest a,
+.widget-social-profiles .pinterest a:hover {
+	background-color: #C92922;
+	color: #FFF;
+}
+
+.widget-social-profiles .reddit a,
+.widget-social-profiles .reddit a:hover {
+	background-color: #7B2913;
+	color: #FFF;
+}
+
+.widget-social-profiles .skype a,
+.widget-social-profiles .skype a:hover {
+	background-color: #6DC7E8;
+	color: #FFF;
+}
+
+.widget-social-profiles .soundcloud a,
+.widget-social-profiles .soundcloud a:hover {
+	background-color: #F8310E;
+	color: #FFF;
+}
+
+.widget-social-profiles .spotify a,
+.widget-social-profiles .spotify a:hover {
+	background-color: #4E8F21;
+	color: #FFF;
+}
+
+.widget-social-profiles .twitter a,
+.widget-social-profiles .twitter a:hover {
+	background-color: #7EB3CD;
+	color: #FFF;
+}
+
+.widget-social-profiles .vimeo a,
+.widget-social-profiles .vimeo a:hover {
+	background-color: #7EB3CD;
+	color: #FFF;
+}
+
+.widget-social-profiles .yelp a,
+.widget-social-profiles .yelp a:hover {
+	background-color: #F7074B;
+	color: #FFF;
+}
+
+.widget-social-profiles .vimeo a,
+.widget-social-profiles .vimeo a:hover {
+	background-color: #015786;
+	color: #FFF;
+}
+
+.widget-social-profiles .youtube a,
+.widget-social-profiles .youtube a:hover {
+	background-color: #DB2638;
+	color: #FFF;
+	font-size: 26px;
+	padding: 0;
+}
+
+.widget-social-profiles .rss a,
+.widget-social-profiles .rss a:hover {
+	background-color: #F99000;
+	color: #FFF;
+}
